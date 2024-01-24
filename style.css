@@ -1,0 +1,190 @@
+
+.navigation {
+    background-color: black;
+    display: flex;
+    font-size: 1.5em;
+    padding: 16px;
+}
+
+.navigation__item {
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    background-color: #352E2E;
+    width: 100%;
+    align-items: center;
+}
+
+.header-pizza {
+    width: 90%;
+    justify-self: center;
+}
+
+
+.italy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.italy-icon {
+    width: 6em;
+    padding: 12px;
+}
+
+.main-heading {
+    font-size: 6em;
+    text-align: center;
+    color: white;
+}
+
+.smaller-heading {
+    font-size: 3em;
+    color: white;
+}
+
+.hit {
+    background-color: #524646;
+    display: grid;
+}
+
+.hit__heading {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Lilita One', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.hit__food {
+    width: 40%;
+    border-radius: 2em;
+    border: 1px solid;
+    justify-self: center;
+    background-color: white;
+    margin: 5%;
+}
+
+.location {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.location__heading {
+    text-align: center;
+    font-size: 4em;
+    padding: 16px;
+}
+
+.map {
+    overflow:hidden;
+    padding-bottom:70%;
+    position:relative;
+    height:0;
+    margin: 16px;
+}
+
+.map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.contact {
+    display: grid;
+    background-color: #4d4b4b;
+    padding: 16px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact__item {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    padding: 2px;
+}
+
+.contact__img {
+    width: 3em;
+    filter: invert(100%) sepia(0%) saturate(7496%) hue-rotate(155deg) brightness(98%) contrast(99%);
+    margin-right: 5px;
+}
+
+.contact__paragraph {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.opening-hours {
+    color: white;
+    text-align: center;
+}
+
+.opening-hours__heading {
+    font-size: 3em;
+}
+
+.opening-hours__paragraph {
+    font-size: 1.5em;
+    padding: 2px;
+}
+
+/* menu.html */
+
+.menu-heading {
+    font-size: 4em;
+    text-align: center;
+    margin-top: 3%;
+    padding: 2%;
+}
+
+.menu {     
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5%;
+    margin-bottom: 20%;
+}
+
+.food {
+    width: 80%;
+    border: 1px solid;
+    justify-self: center;
+}
+
+.food__link {
+    text-decoration: none;
+    color: black;
+}
+
+.food__img {
+    width: 100%;
+}
+
+.food__description {
+    text-align: center;
+    padding: 4px;
+}
+
+.food__heading {
+    font-size: 2em;
+    font-weight: bold;
+}   
+
+.food__paragraph {
+    font-size: 1.5em;
+}
